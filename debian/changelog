@@ -1,4 +1,4 @@
-sdcc (3.4.0-3huayra) unstable; urgency=medium
+sdcc (3.4.0+huayra-3) unstable; urgency=medium
 
   * Compile with non-free
 

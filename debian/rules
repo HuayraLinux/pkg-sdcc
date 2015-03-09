@@ -176,7 +176,7 @@ binary-common:
 	dh_installemacsen
 	dh_link
 	dh_lintian
-	dh_strip -Xusr/share/sdcc/lib/
+	dh_strip -Xusr/share/sdcc/lib/ -Xusr/share/sdcc/non-free/
 	dh_compress 
 	dh_fixperms
 	dh_installdeb
