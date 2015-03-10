@@ -17,9 +17,9 @@ Architecture: any
 Depends: sdcc-libraries (= ${source:Version}), ${shlibs:Depends}, ${misc:Depends}
 Recommends: sdcc-doc
 Suggests: sdcc-ucsim, python
-Replaces: sdcc-libraries-nonfree (<= 3.1.0)
-Breaks: sdcc-libraries (<< 2.9.0), sdcc-libraries-nonfree (<= 3.1.0)
-Conflicts: sdcc-libraries-nonfree (<= 3.1.0)
+Replaces: sdcc-libraries-nonfree (<= 3.1.0-1.1)
+Breaks: sdcc-libraries (<< 2.9.0), sdcc-libraries-nonfree (<= 3.1.0-1.1)
+Conflicts: sdcc-libraries-nonfree (<= 3.1.0-1.1)
 Description: Small Device C Compiler
  SDCC is a C compiler for the Intel MCS51 family, AVR, HC08, PIC
  and Z80 microcontrollers.
@@ -30,9 +30,9 @@ Package: sdcc-libraries
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: gputils
-Replaces: sdcc-libraries-nonfree (<= 3.1.0)
-Breaks: sdcc-libraries (<< 2.9.0), sdcc-libraries-nonfree (<= 3.1.0)
-Conflicts: sdcc-libraries-nonfree (<= 3.1.0)
+Replaces: sdcc-libraries-nonfree (<= 3.1.0-1.1)
+Breaks: sdcc-libraries (<< 2.9.0), sdcc-libraries-nonfree (<= 3.1.0-1.1)
+Conflicts: sdcc-libraries-nonfree (<= 3.1.0-1.1)
 Description: Small Device C Compiler (libraries)
  SDCC is a C compiler for the Intel MCS51 family, AVR, HC08, PIC
  and Z80 microcontrollers.

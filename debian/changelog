@@ -1,3 +1,9 @@
+sdcc (3.4.0+huayra-7) torbellino; urgency=medium
+
+  * Correccion de version de paquete anterior
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 10 Mar 2015 17:04:23 -0300
+
 sdcc (3.4.0+huayra-6) unstable; urgency=medium
 
   *  Corrige typo en control.
